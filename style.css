@@ -1,0 +1,179 @@
+:root{
+  --corPrinc: #ff0000;
+  --corSecund: #ffffff;
+  --corComMouse: #d00000;
+}
+
+#cei {
+  margin: 0;
+  color: var(--corSecund);
+  text-align: center;
+}
+
+#ftAtividades {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  width: 300px;
+  height: 225px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f0;
+  color: #000000;
+}
+
+header {
+  background-color: var(--corPrinc);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  color: var(--corSecund);
+  text-align: center;
+  font-size: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--corSecund);
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+main {
+  padding: 30px 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.galeria {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  width: 300px;
+  height: auto;
+}
+
+.galeria img:hover {
+  transform: scale(0.9);
+}
+
+.seta {
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--corPrinc);
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.seta:hover {
+  color: var(--corComMouse);
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+#imagem {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: var(--corPrinc);
+  color: var(--corSecund);
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: var(--corComMouse);
+}
+
+#mensagemStatus {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: var(--corPrinc);
+  text-align: center;
+  padding: 20px;
+  color: var(--corSecund);
+}
+
+#btnContato {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--corPrinc);
+  color: var(--corSecund);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+#btnContato:hover {
+  background-color: var(--corComMouse);
+}
